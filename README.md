@@ -1,12 +1,47 @@
-# React + Vite
+# Dynamic List Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that allows users to create and manage a dynamic list. Users can input items, add them to the list, and view them in a styled layout.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add items to a list by typing and pressing the "Add Item" button
+- Responsive and user friendly interface
+- Styled using modern CSS (teal theme)
+- Clean and minimal UI inspired by assignment reference
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   sh
+   git clone https://github.com/Maureen-code-coder/DynamicListManager
+   cd dynamic-list-manager
+
+2. Install dependencies:
+    sh
+     npm install
+
+
+
+## Usage
+
+1. Run the application in development mode:
+    ```sh
+    npm start
+
+2. Then open http://localhost:3000 to view it in the browser.
+
+
+## Technologies Used
+    
+    React.js
+    CSS
+
+## Future Improvements
+
+Add delete functionality for items.
+
+Implement persistent storage using localStorage.
+
+---
+
+Developed with ❤ by Maureen
